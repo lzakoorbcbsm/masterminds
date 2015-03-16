@@ -12,7 +12,8 @@ angular.module('bucketList', ['ionic', 'firebase', 'bucketList.controllers'])
         }
 
         $rootScope.userEmail = null;
-        $rootScope.baseUrl = 'https://incandescent-heat-4234.firebaseio.com/';
+        // $rootScope.baseUrl = 'https://incandescent-heat-4234.firebaseio.com/';
+        $rootScope.baseUrl = 'https://intense-inferno-7750.firebaseio.com/';
         var authRef = new Firebase($rootScope.baseUrl);
         $rootScope.auth = $firebaseAuth(authRef);
 
